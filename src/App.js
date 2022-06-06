@@ -1,15 +1,10 @@
-import React from 'react';
-import './App.css';
-import Home from './components/Home';
-import Studentsurvey from './StudentSurvey';
-
-
+import React  from "react";
+import createnote from "./notes.tsx";
 function App() {
   return (
     <div className="App">
- 
-     <Home />
-      </div>
+      <createnote/>
+    </div>
   );
 }
 
